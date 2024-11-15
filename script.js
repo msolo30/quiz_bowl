@@ -1,5 +1,5 @@
 let questionList = ['What is the largest mammal in the world?', 'Who painted the Mona Lisa?', 'Who was the first televised president?'];
-let answerList = ['whales', 'da vinci', 'FDR'];
+let answerList = ['whale', 'da vinci', 'FDR'];
 let score = 0;
 let questionIndex = 0;
 
@@ -9,7 +9,6 @@ const input = document.querySelector('.input-container');
 let scoreContainer = document.querySelector('.score');
 
 question.textContent = questionList[questionIndex];
-console.log(question);
 
 let sumbitFunction = () => {
     button.addEventListener('click', () => {
